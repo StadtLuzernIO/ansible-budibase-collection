@@ -1,4 +1,4 @@
-#Ansible Collection: StadtLuzernIO.Budibase
+# Ansible Collection: StadtLuzernIO.Budibase
 
 ## Overview
 This repository contains Budibase Ansible Modules, which one can use with Ansible to work with the [Budibase][budibase].
