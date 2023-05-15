@@ -96,7 +96,7 @@ awx_credential_type_settings:
         BUDIBASE_TOKEN: '{{ budibase_token }}'
 ```
 <p>
-  <img alt="Budibase" src="https://github.com/StadtLuzernIO/ansible-budibase-collection-private/blob/main/docs/assets/awx_credential_type_settings.png" width="1000" />
+  <img alt="Budibase" src="https://github.com/StadtLuzernIO/ansible-budibase-collection/blob/main/docs/assets/awx_credential_type_settings.png" width="1000" />
 </p>
 
 #### Credential
@@ -110,14 +110,14 @@ awx_credentials_settings:
       budibase_token: afjajsfjsacvksd89rjdd32d02dk20dk2d
 ```
 <p>
-  <img alt="Budibase" src="https://github.com/StadtLuzernIO/ansible-budibase-collection-private/blob/main/docs/assets/awx_credentials_settings.png" width="1000" />
+  <img alt="Budibase" src="https://github.com/StadtLuzernIO/ansible-budibase-collection/blob/main/docs/assets/awx_credentials_settings.png" width="1000" />
 </p>
 
 #### Job Template
 Add the credentials to the jop template, in which you use this collection.
 
 <p>
-  <img alt="Budibase" src="https://github.com/StadtLuzernIO/ansible-budibase-collection-private/blob/main/docs/assets/awx_job_template_settings.png" width="1000" />
+  <img alt="Budibase" src="https://github.com/StadtLuzernIO/ansible-budibase-collection/blob/main/docs/assets/awx_job_template_settings.png" width="1000" />
 </p>
 
 
@@ -139,8 +139,8 @@ Environment variables are ignored if the module variable is defined for a task.
 
 Name | Description
 --- | ---
-[slu.budibase.execute_a_query](https://github.com/StadtLuzernIO/ansible-budibase-collection-private/blob/main/docs/execute_a_query.rst)|Can executed queries which have been created in a Budibase app                                                |
-[slu.budibase.search_for_rows](https://github.com/StadtLuzernIO/ansible-budibase-collection-private/blob/main/docs/search_for_rows.rst)|Get rows from a table in a Budibase app                                                                       |
+[slu.budibase.execute_a_query](https://github.com/StadtLuzernIO/ansible-budibase-collection/blob/main/docs/execute_a_query.rst)|Can executed queries which have been created in a Budibase app                                                |
+[slu.budibase.search_for_rows](https://github.com/StadtLuzernIO/ansible-budibase-collection/blob/main/docs/search_for_rows.rst)|Get rows from a table in a Budibase app                                                                       |
 
 
 ## Demo Example
@@ -148,7 +148,7 @@ Name | Description
 https://fibac.budibase.app/app/stadtluzernio#/INVENTORY
 
 <p>
-  <img alt="Budibase" src="https://github.com/StadtLuzernIO/ansible-budibase-collection-private/blob/main/docs/assets/budibase_demo_inventory.png" width="1000" />
+  <img alt="Budibase" src="https://github.com/StadtLuzernIO/ansible-budibase-collection/blob/main/docs/assets/budibase_demo_inventory.png" width="1000" />
 </p>
 
 ```yaml
