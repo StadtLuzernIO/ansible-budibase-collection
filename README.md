@@ -1,4 +1,4 @@
-# Ansible Collection: StadtLuzernIO.Budibase
+#Ansible Collection: StadtLuzernIO.Budibase
 
 ## Overview
 This repository contains Budibase Ansible Modules, which one can use with Ansible to work with the [Budibase][budibase].
@@ -10,6 +10,16 @@ For general information about Ansible, visit the [GitHub project page][an-github
 [an-github]: https://github.com/ansible/ansible
 
 ## What is Budibase
+<p>
+  <a href="https://www.budibase.com">
+    <img alt="Budibase" src="https://github.com/StadtLuzernIO/ansible-budibase-collection/blob/main/docs/assets/budibase_logo.png?raw=true" width="60" />
+  </a>
+</p>
+<p>
+  <a href="https://www.budibase.com">
+    <img alt="Budibase" src="docs/assets/budibase_logo.png" width="60" />
+  </a>
+</p>
 Budibase is an all-in-one open-source low-code platform for building, designing, and automating business apps, such as; admin panels, forms, internal tools, client portals, and more. Before Budibase, it could take developers weeks to build simple CRUD apps; with Budibase, building CRUD apps takes minutes.
 
 
@@ -45,7 +55,7 @@ The below prerequisites are needed on the local Ansible controller node that exe
 ### Installing the Collection from Ansible Galaxy
 Before using the StadtLuzernIO budibase collection, you need to install the collection with the ansible-galaxy cli:
 ```sh
-ansible-galaxy collection install slu.budibase
+ansible-galaxy collection install stadtluzernio.budibase
 ```
 
 You can also include it in a requirements.yml file and install it via `ansible-galaxy collection install -r requirements.yml` using the format:
@@ -96,7 +106,7 @@ awx_credential_type_settings:
         BUDIBASE_TOKEN: '{{ budibase_token }}'
 ```
 <p>
-  <img alt="Budibase" src="https://github.com/StadtLuzernIO/ansible-budibase-collection/blob/main/docs/assets/awx_credential_type_settings.png" width="1000" />
+  <img alt="Budibase" src="https://github.com/StadtLuzernIO/ansible-budibase-collection/blob/main/docs/assets/awx_credential_type_settings.png?raw=true" width="1000" />
 </p>
 
 #### Credential
@@ -110,14 +120,14 @@ awx_credentials_settings:
       budibase_token: afjajsfjsacvksd89rjdd32d02dk20dk2d
 ```
 <p>
-  <img alt="Budibase" src="https://github.com/StadtLuzernIO/ansible-budibase-collection/blob/main/docs/assets/awx_credentials_settings.png" width="1000" />
+  <img alt="Budibase" src="https://github.com/StadtLuzernIO/ansible-budibase-collection/blob/main/docs/assets/awx_credentials_settings.png?raw=true" width="1000" />
 </p>
 
 #### Job Template
 Add the credentials to the jop template, in which you use this collection.
 
 <p>
-  <img alt="Budibase" src="https://github.com/StadtLuzernIO/ansible-budibase-collection/blob/main/docs/assets/awx_job_template_settings.png" width="1000" />
+  <img alt="Budibase" src="https://github.com/StadtLuzernIO/ansible-budibase-collectio/blob/main/docs/assets/awx_job_template_settings.png?raw=true" width="1000" />
 </p>
 
 
@@ -139,8 +149,8 @@ Environment variables are ignored if the module variable is defined for a task.
 
 Name | Description
 --- | ---
-[slu.budibase.execute_a_query](https://github.com/StadtLuzernIO/ansible-budibase-collection/blob/main/docs/execute_a_query.rst)|Can executed queries which have been created in a Budibase app                                                |
-[slu.budibase.search_for_rows](https://github.com/StadtLuzernIO/ansible-budibase-collection/blob/main/docs/search_for_rows.rst)|Get rows from a table in a Budibase app                                                                       |
+[stadtluzernio.budibase.execute_a_query](https://github.com/StadtLuzernIO/ansible-budibase-collection/blob/main/docs/execute_a_query.rst)|Can executed queries which have been created in a Budibase app                                                |
+[stadtluzernio.budibase.search_for_rows](https://github.com/StadtLuzernIO/ansible-budibase-collection/blob/main/docs/search_for_rows.rst)|Get rows from a table in a Budibase app                                                                       |
 
 
 ## Demo Example
@@ -148,7 +158,7 @@ Name | Description
 https://fibac.budibase.app/app/stadtluzernio#/INVENTORY
 
 <p>
-  <img alt="Budibase" src="https://github.com/StadtLuzernIO/ansible-budibase-collection/blob/main/docs/assets/budibase_demo_inventory.png" width="1000" />
+  <img alt="Budibase" src="https://github.com/StadtLuzernIO/ansible-budibase-collection/blob/main/docs/assets/budibase_demo_inventory.png?raw=true" width="1000" />
 </p>
 
 ```yaml
