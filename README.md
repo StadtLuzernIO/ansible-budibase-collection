@@ -10,16 +10,8 @@ For general information about Ansible, visit the [GitHub project page][an-github
 [an-github]: https://github.com/ansible/ansible
 
 ## What is Budibase
-<p>
-  <a href="https://www.budibase.com">
-    <img alt="Budibase" src="https://github.com/StadtLuzernIO/ansible-budibase-collection/blob/main/docs/assets/budibase_logo.png?raw=true" width="60" />
-  </a>
-</p>
-<p>
-  <a href="https://www.budibase.com">
-    <img alt="Budibase" src="docs/assets/budibase_logo.png" width="60" />
-  </a>
-</p>
+![Budibase](https://github.com/StadtLuzernIO/ansible-budibase-collection/blob/main/docs/assets/budibase_logo.png?raw=true)
+
 Budibase is an all-in-one open-source low-code platform for building, designing, and automating business apps, such as; admin panels, forms, internal tools, client portals, and more. Before Budibase, it could take developers weeks to build simple CRUD apps; with Budibase, building CRUD apps takes minutes.
 
 
@@ -105,9 +97,8 @@ awx_credential_type_settings:
         BUDIBASE_HOST: '{{ budibase_host }}'
         BUDIBASE_TOKEN: '{{ budibase_token }}'
 ```
-<p>
-  <img alt="Budibase" src="https://github.com/StadtLuzernIO/ansible-budibase-collection/blob/main/docs/assets/awx_credential_type_settings.png?raw=true" width="1000" />
-</p>
+
+![awx_credential_type_settings](https://github.com/StadtLuzernIO/ansible-budibase-collection/blob/main/docs/assets/awx_credential_type_settings.png?raw=true)
 
 #### Credential
 ```yaml
@@ -119,17 +110,14 @@ awx_credentials_settings:
       budibase_host: my-budibase-host.my-domain.ch
       budibase_token: afjajsfjsacvksd89rjdd32d02dk20dk2d
 ```
-<p>
-  <img alt="Budibase" src="https://github.com/StadtLuzernIO/ansible-budibase-collection/blob/main/docs/assets/awx_credentials_settings.png?raw=true" width="1000" />
-</p>
+
+![awx_credentials_settings](https://github.com/StadtLuzernIO/ansible-budibase-collection/blob/main/docs/assets/awx_credentials_settings.png?raw=true)
+
 
 #### Job Template
 Add the credentials to the jop template, in which you use this collection.
 
-<p>
-  <img alt="Budibase" src="https://github.com/StadtLuzernIO/ansible-budibase-collectio/blob/main/docs/assets/awx_job_template_settings.png?raw=true" width="1000" />
-</p>
-
+![awx_job_template_settings](https://github.com/StadtLuzernIO/ansible-budibase-collection/blob/main/docs/assets/awx_job_template_settings.png?raw=true)
 
 ## Module Variables
 
@@ -157,9 +145,7 @@ Name | Description
 
 https://fibac.budibase.app/app/stadtluzernio#/INVENTORY
 
-<p>
-  <img alt="Budibase" src="https://github.com/StadtLuzernIO/ansible-budibase-collection/blob/main/docs/assets/budibase_demo_inventory.png?raw=true" width="1000" />
-</p>
+![budibase_demo_inventory](https://github.com/StadtLuzernIO/ansible-budibase-collection/blob/main/docs/assets/budibase_demo_inventory.png?raw=true)
 
 ```yaml
   - name: "SELECT * FROM inventory WHERE os_family_name == window"
