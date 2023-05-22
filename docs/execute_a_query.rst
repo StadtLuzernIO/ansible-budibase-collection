@@ -275,11 +275,28 @@ Common return values are documented `here <https://docs.ansible.com/ansible/late
 
     <table border=0 cellpadding=0 class="documentation-table">
         <tr>
-            <th colspan="1">Key</th>
+            <th colspan="2">Key</th>
             <th>Returned</th>
             <th width="100%">Description</th>
         </tr>
         <tr>
+        <td colspan="2">
+                <div class="ansibleOptionAnchor" id="return-"></div>
+                <b>json</b>
+                <a class="ansibleOptionLink" href="#return-" title="Permalink to this return value"></a>
+                <div style="font-size: small">
+                  <span style="color: purple">dictionary</span>
+                </div>
+            </td>
+            <td>success</td>
+            <td>
+                <div>
+                    Return json dictionary
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="elbow-placeholder"></td>
             <td colspan="1">
                 <div class="ansibleOptionAnchor" id="return-"></div>
                 <b>app_info</b>
@@ -309,6 +326,7 @@ Common return values are documented `here <https://docs.ansible.com/ansible/late
             </td>
         </tr>
         <tr>
+            <td class="elbow-placeholder"></td>
             <td colspan="1">
                 <div class="ansibleOptionAnchor" id="return-"></div>
                 <b>query_info</b>
@@ -355,7 +373,8 @@ Common return values are documented `here <https://docs.ansible.com/ansible/late
                 </div>
             </td>
         </tr>
-                <tr>
+        <tr>
+            <td class="elbow-placeholder"></td>
             <td colspan="1">
                 <div class="ansibleOptionAnchor" id="return-"></div>
                 <b>content</b>
@@ -373,10 +392,10 @@ Common return values are documented `here <https://docs.ansible.com/ansible/late
                 <div style="font-size: smaller"><b>Sample:</b></div>
                 <div style="font-size: smaller; color: blue; word-wrap: break-word; word-break: break-all;">
                     [<br/>
-                    &nbsp;&nbsp;{
-                    &nbsp;&nbsp;&nbsp;&nbsp;"name": "demo",
-                    &nbsp;&nbsp;&nbsp;&nbsp;"domain_name": "domain.ch"
-                    &nbsp;&nbsp;}
+                    &nbsp;&nbsp;{<br/>
+                    &nbsp;&nbsp;&nbsp;&nbsp;"name": "demo",<br/>
+                    &nbsp;&nbsp;&nbsp;&nbsp;"domain_name": "domain.ch"<br/>
+                    &nbsp;&nbsp;}<br/>
                     ]
                 </div>
             </td>
