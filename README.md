@@ -161,3 +161,9 @@ https://fibac.budibase.app/app/stadtluzernio#/INVENTORY
           equal:
             os_family_name: windows
 ```
+
+## About stadtluzern.io
+stadtluzern.io is our public domain as dev's at the city government of luzern. Please refer to our [official website](https://www.stadtluzern.ch) for any other inquiries.
+
+## License
+The Unlicense, see [LICENSE](LICENSE) file.
